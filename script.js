@@ -97,6 +97,7 @@ function highlightOperator(op) {
   });
 }
 
+
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     const action = button.dataset.action;
